@@ -89,7 +89,7 @@
 	    this.asteroids = [];
 	    this.allObjects = [];
 	    this.explosions = [];
-	    this.numberAsteroids = 1;
+	    this.numberAsteroids = 2;
 	    this.score = 0;
 	    this.running = true;
 	    this.makeShip();
@@ -544,14 +544,16 @@
 	    frameRate: 2,
 	    frameX: 0,
 	    frameY: 0,
-	    frameWidth: 128,
-	    frameHeight: 128,
+	    frameWidth: 256,
+	    frameHeight: 256,
 	    offset: 100,
-	    totalFrameX: 640,
-	    totalFrameY: 1152,
+	    totalFrameX: 1280,
+	    totalFrameY: 1792,
 	    imageWidth: 200,
 	    imageHeight: 200
 	  },
+	
+	  // 1280 × 2304
 	
 	  "warp": {
 	    frameRate: 1,
@@ -583,11 +585,11 @@
 	    frameRate: 2,
 	    frameX: 0,
 	    frameY: 0,
-	    frameWidth: 128,
-	    frameHeight: 128,
+	    frameWidth: 256,
+	    frameHeight: 256,
 	    offset: 100/3,
-	    totalFrameX: 640,
-	    totalFrameY: 1152,
+	    totalFrameX: 1280,
+	    totalFrameY: 2304,
 	    imageWidth: 200/3,
 	    imageHeight: 200/3
 	  },

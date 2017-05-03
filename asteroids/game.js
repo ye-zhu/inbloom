@@ -15,7 +15,7 @@ class Game {
     this.asteroids = [];
     this.allObjects = [];
     this.explosions = [];
-    this.numberAsteroids = 1;
+    this.numberAsteroids = 2;
     this.score = 0;
     this.running = true;
     this.makeShip();
