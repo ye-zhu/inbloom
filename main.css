@@ -1,0 +1,17 @@
+body {
+  background-image: url("asteroids/assets/mulilabyrinthlg.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
+  margin: 0 auto;
+  -webkit-animation: backgroundScroll 2000s linear infinite;
+}
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: 0 90000px ;}
+}
+
+#canvas {
+  font-family: monospace;
+  /*border: 1px solid green;*/
+}
